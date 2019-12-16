@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>login</title>
+  <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+  <div class="login">
+    <h4 class="title">用户登录</h4>
+    <hr/>
+    <form action="/sessions" method="post">
+      <div class="row username">
+        <label>用户名:</label>
+        <input type="text" name="username" id="username" />
+        <span>请输入至少6位用户名</span>
+      </div>
+      <div class="row password">
+        <label>密码:</label>
+        <input type="password" name="password" id="password" />
+        <span>请输入至少6-10位密码</span>
+      </div>
+      <div class="submit">
+          <input type="submit" value="登录">
+      </div>
+      
+  </form>
+</div>
+</body>
+</html>
